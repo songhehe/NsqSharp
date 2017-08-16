@@ -12,6 +12,7 @@ NsqSharp fork, compiled as a netstandard 2 library. The Bus part has to be remov
     <PackageReleaseNotes>A .NET client library for NSQ, a realtime distributed messaging platform.
 NsqSharp fork, compiled as a netstandard 2 library. The Bus part has to be removed in this version.</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.0-alpha</Version>
   </PropertyGroup>
 
   <ItemGroup>

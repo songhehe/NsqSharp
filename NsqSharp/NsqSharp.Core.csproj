@@ -2,9 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Id>NsqSharp.Core</Id>
+    <Title>NsqSharp.Core</Title>
     <Description>A .NET client library for NSQ, a realtime distributed messaging platform.
 NsqSharp fork, compiled as a netstandard 2 library. The Bus part has to be removed in this version.</Description>
-    <Copyright></Copyright>
+    <Copyright>Daniel Redondo</Copyright>
     <Authors>Daniel Redondo</Authors>
     <Company>Daniel Redondo</Company>
     <PackageProjectUrl>https://github.com/tonyredondo/NsqSharp</PackageProjectUrl>

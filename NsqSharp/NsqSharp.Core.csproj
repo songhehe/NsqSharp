@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>A .NET client library for NSQ, a realtime distributed messaging platform.
+NsqSharp fork, compiled as a netstandard 2 library. The Bus part has to be removed in this version.</Description>
+    <Copyright></Copyright>
+    <Authors>Daniel Redondo</Authors>
+    <Company>Daniel Redondo</Company>
+    <PackageProjectUrl>https://github.com/tonyredondo/NsqSharp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/tonyredondo/NsqSharp</RepositoryUrl>
+    <PackageReleaseNotes>A .NET client library for NSQ, a realtime distributed messaging platform.
+NsqSharp fork, compiled as a netstandard 2 library. The Bus part has to be removed in this version.</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Bus\**" />
+    <EmbeddedResource Remove="Bus\**" />
+    <None Remove="Bus\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+
+</Project>
